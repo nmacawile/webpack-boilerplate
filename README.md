@@ -206,6 +206,7 @@ module.exports = merge(baseConfig, {
   mode: 'development',
   output: {
     path: path.resolve(__dirname, 'dev/assets'),
+    publicPath: '/',
   },
   devtool: 'source-map',
   devServer: {
